@@ -1,15 +1,15 @@
-[![Issues](https://img.shields.io/github/issues/thewover/donut)](https://github.com/TheWover/donut/issues)
-[![Contributors](https://img.shields.io/github/contributors/thewover/donut)](https://github.com/TheWover/donut/graphs/contributors)
-[![Stars](https://img.shields.io/github/stars/thewover/donut)](https://github.com/TheWover/donut/stargazers)
-[![Forks](https://img.shields.io/github/forks/thewover/donut)](https://github.com/TheWover/donut/network/members)
-[![License](https://img.shields.io/github/license/thewover/donut)](https://github.com/TheWover/donut/blob/master/LICENSE)
+[![Issues](https://img.shields.io/github/issues/trhacknon/donut)](https://github.com/trhacknon/donut/issues)
+[![Contributors](https://img.shields.io/github/contributors/trhacknon/donut)](https://github.com/trhacknon/donut/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/trhacknon/donut)](https://github.com/trhacknon/donut/stargazers)
+[![Forks](https://img.shields.io/github/forks/trhacknon/donut)](https://github.com/trhacknon/donut/network/members)
+[![License](https://img.shields.io/github/license/trhacknon/donut)](https://github.com/trhacknon/donut/blob/master/LICENSE)
 [![Chat](https://img.shields.io/badge/chat-%23donut-orange)](https://bloodhoundgang.herokuapp.com/)
-[![Github All Releases](https://img.shields.io/github/downloads/thewover/donut/total.svg)](http://www.somsubhra.com/github-release-stats/?username=thewover&repository=donut) 
-[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?original_referer=https://github.com/TheWover/donut&text=%23Donut+An+open-source+shellcode+generator+that+supports+in%2Dmemory+execution+of+VBS%2FJS%2FEXE%2FDLL+files:+https://github.com/TheWover/donut)
+[![Github All Releases](https://img.shields.io/github/downloads/trhacknon/donut/total.svg)](http://www.somsubhra.com/github-release-stats/?username=trhacknon&repository=donut) 
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?original_referer=https://github.com/trhacknon/donut&text=%23Donut+An+open-source+shellcode+generator+that+supports+in%2Dmemory+execution+of+VBS%2FJS%2FEXE%2FDLL+files:+https://github.com/trhacknon/donut)
 
-![Alt text](https://github.com/TheWover/donut/blob/master/img/donut_logo_white.jpg?raw=true "Donut Logo")
+![Alt text](https://github.com/trhacknon/donut/blob/master/img/donut_logo_white.jpg?raw=true "Donut Logo")
 
-<p>Current version: <a href="https://thewover.github.io/TBD/">v0.9.3</a> <em>please submit issues and requests for v1.0 release</em></p>
+<p>Current version: <a href="https://trhacknon.github.io/TBD/">v0.9.3</a> <em>please submit issues and requests for v1.0 release</em></p>
 
 <h2>Table of contents</h2>
 
@@ -56,17 +56,17 @@
 
 <h2 id="build">3. Building</h2>
 
-<p>There are two types of build. If you want to debug Donut, please refer to <a href="https://github.com/TheWover/donut/blob/master/docs/devnotes.md">documentation here</a>. If not, continue reading for the release build.</p>
+<p>There are two types of build. If you want to debug Donut, please refer to <a href="https://github.com/trhacknon/donut/blob/master/docs/devnotes.md">documentation here</a>. If not, continue reading for the release build.</p>
 
 <h3><strong>Clone</strong></h3>
 
 <p>From a Windows command prompt or Linux terminal, clone the repository.</p>
 
 <pre> 
-  git clone http://github.com/thewover/donut.git
+  git clone http://github.com/trhacknon/donut.git
 </pre>
 
-<p>The next step depends on your operating system and what compiler you decide to use. Currently, the generator and loader template for Donut can be compiled successfully with both Microsoft Visual Studio 2019 (Native Tools Command Prompt for VS 2019) and MingGW-64.  To use the libraries in your own C/C++ project, please refer to the <a href="https://github.com/TheWover/donut/tree/master/examples">examples provided here.</a></p>
+<p>The next step depends on your operating system and what compiler you decide to use. Currently, the generator and loader template for Donut can be compiled successfully with both Microsoft Visual Studio 2019 (Native Tools Command Prompt for VS 2019) and MingGW-64.  To use the libraries in your own C/C++ project, please refer to the <a href="https://github.com/trhacknon/donut/tree/master/examples">examples provided here.</a></p>
 
 <h4><strong>Windows</strong></h4>
 
@@ -106,17 +106,17 @@
   pip3 install donut-shellcode
 </pre>
 
-<p>For more information, please refer to <a href="https://github.com/TheWover/donut/blob/master/docs/2019-08-21-Python_Extension.md">Building and using the Python extension.</a></p>
+<p>For more information, please refer to <a href="https://github.com/trhacknon/donut/blob/master/docs/2019-08-21-Python_Extension.md">Building and using the Python extension.</a></p>
 
 <h3>Releases</h3>
 
 <p>Tags have been provided for each release version of Donut that contain the compiled executables.</p>
 
 <ul>
-  <li><a href="https://github.com/TheWover/donut/releases/tag/v0.9.3">v0.9.3, TBD</a></li>
-  <li><a href="https://github.com/TheWover/donut/releases/tag/v0.9.2">v0.9.2, Bear Claw</a></li>
-  <li><a href="https://github.com/TheWover/donut/releases/tag/v0.9.1">v0.9.1, Apple Fritter</a></li>
-  <li><a href="https://github.com/TheWover/donut/releases/tag/v0.9">v0.9.0, Initial Release</a></li>
+  <li><a href="https://github.com/trhacknon/donut/releases/tag/v0.9.3">v0.9.3, TBD</a></li>
+  <li><a href="https://github.com/trhacknon/donut/releases/tag/v0.9.2">v0.9.2, Bear Claw</a></li>
+  <li><a href="https://github.com/trhacknon/donut/releases/tag/v0.9.1">v0.9.1, Apple Fritter</a></li>
+  <li><a href="https://github.com/trhacknon/donut/releases/tag/v0.9">v0.9.0, Initial Release</a></li>
 </ul>
 
 <p>Currently, there are two other generators available.</p>
@@ -265,7 +265,7 @@
 <h3 id="requirements-dotnet">Unmanaged DLLs</h2>
 
 <ul>
-  <li>A user-specified entry point method must only take a string as an argument, or take no arguments. We have provided an <a href="https://github.com/TheWover/donut/blob/master/DonutTest/dlltest.c/">example</a>.</li>
+  <li>A user-specified entry point method must only take a string as an argument, or take no arguments. We have provided an <a href="https://github.com/trhacknon/donut/blob/master/DonutTest/dlltest.c/">example</a>.</li>
 </ul>
 
 <h2 id="subproj">5. Subprojects</h2>
@@ -297,7 +297,7 @@
 
 <h2 id="dev">6. Developing with Donut</h2>
 
-<p>You may want to add support for more types of payloads, change our feature set, or integrate Donut into your existing tooling. We have provided <a href="https://github.com/TheWover/donut/blob/master/docs/devnotes.md">developer documentation</a>. Additional features are left as exercises to the reader. Our suggestions:</p>
+<p>You may want to add support for more types of payloads, change our feature set, or integrate Donut into your existing tooling. We have provided <a href="https://github.com/trhacknon/donut/blob/master/docs/devnotes.md">developer documentation</a>. Additional features are left as exercises to the reader. Our suggestions:</p>
 
 <ul>
   <li>Add environmental keying.</li>
